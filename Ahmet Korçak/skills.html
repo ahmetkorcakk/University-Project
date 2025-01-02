@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icons8-turkey-48.png" type="image/x-icon">
+    <title>Yeteneklerim</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0V69TBBZT1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-0V69TBBZT1');
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="topnav">
+            <a href="#home" class="active"></a>
+            <div id="myLinks">
+                <a href="index.html">Anasayfa</a>
+                <a href="about.html">Hakkımda</a>
+                <a href="skills.html">Yeteneklerim</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <nav>
+            <a href="index.html" class="active">Anasayfa</a>
+            <a href="about.html">Hakkımda</a>
+            <a href="skills.html">Yeteneklerim</a>
+        </nav>
+    </header>
+    <section class="about">
+        <div class="gallery1">
+            <div class="image-container1s"></div>
+            <div class="image-container2s"></div>
+            <div class="image-container3s"></div>
+            <div class="image-container4s"></div>
+        </div>
+        <div class="text">
+            <br>
+            <br>
+            <center>
+                <h1 class="about-text">Yeteneklerim </h1>
+            </center>
+            <p class="skills-text">
+                <center>
+                    <div class="skill">
+                        <i class="fas fa-coffee"></i>
+                        <h3>Kahve Hazırlama</h3>
+                        <p>Farklı kahve çeşitlerini hazırlama, latte art ve barista becerileri.</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-cocktail"></i>
+                        <h3>Kokteyl Hazırlama</h3>
+                        <p>Klasik ve modern kokteyllerin hazırlanması, farklı likör ve aromaların birleştirilmesi.</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-user-friends"></i>
+                        <h3>Müşteri İlişkileri</h3>
+                        <p>Müşteri memnuniyetini sağlama, sipariş alma ve ödeme işlemleri.</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <h3>Tasarım</h3>
+                        <p>Etkileyici tasarımlar ile modern içerikler oluşturmayı severim.</p>
+                    </div>
+                </center>
+            </p>
+        </div>
+    </section>
+</body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
+
+</html>
